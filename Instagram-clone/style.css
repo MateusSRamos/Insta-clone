@@ -15,8 +15,12 @@
   margin-bottom: 15px;
 }
 
+.login {
+  justify-items: center;
+  display: grid;
+}
 .login input {
-  width: 270px; 
+  width: 270px;
   border: none;
   display: grid;
   height: 38px;
@@ -28,6 +32,7 @@
 }
 
 .login button {
+  border: none;
   width: 270px;
   height: 30px;
   color: #ffffff;
@@ -36,10 +41,11 @@
   margin-bottom: 18px;
   border-radius: 4px;
   margin-bottom: 18px;
+  margin-top: 14px;
 }
 
 .divisor {
-  
+  justify-content: center;
   display: flex;
   align-items: center;
   text-align: center;
@@ -47,14 +53,15 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 13px;
   margin-bottom: 26px;
-
+  & hr {
+    width: 107.25px;
+    border: solid 1px #dbdbdb;
+  }
+  & span {
+    font-weight: bold;
+  }
 }
 
-
-
-.facebook {
-  font-style: bold;
-}
 .facebook button {
   height: 20px;
   width: 270px;
@@ -62,9 +69,40 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   border: none;
   margin-bottom: 21px;
+  font-weight: bold;
 }
 
 .account {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
+  margin-bottom: 68.5px;
+}
+.account div {
+  color: #00376b;
+  margin-bottom: 79.5px;
+}
+
+.account a {
+  margin-top: 79 5px;
+  font-weight: bold;
+  background-color: 0095F6;
+  color: #0095f6;
+  text-decoration: none;
+}
+
+.apps {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  width: 390px;
+  height: 102px;
+}
+
+#gp {
+  width: 134.28125px;
+  height: 40px;
+}
+
+#microsoft {
+  width: 110.765625px;
+  height: 40px;
 }

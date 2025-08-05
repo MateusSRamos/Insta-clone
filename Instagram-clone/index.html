@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Instagram</title>
     <script
@@ -9,36 +10,39 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
-    <div class="main">
+  <body class="main">
+    <img src="images/Logo 1.png" alt="Instagram" />
+
+    <div class="login">
+      <input type="text" placeholder="Phone number, username, or email" />
+      <input type="password" placeholder="Password" />
+      <button>Log in</button>
+    </div>
+
+    <div class="divisor">
+      <hr />
+      <span>OR</span>
+      <hr />
+    </div>
+
+    <div class="facebook">
+      <button><i class="fa-brands fa-facebook"></i>Log in with Facebook</button>
+    </div>
+
+    <div class="account">
       <div>
-        <img src="images/Logo 1.png" alt="Instagram" />
-
-        <div class="login">
-          <input type="text" placeholder="Phone number, username, or email" />
-          <input type="password" placeholder="Password" />
-          <button>Log in</button>
-        </div>
-
-        <div class="divisor">
-          <hr />
-          <span>OR</span>
-        </div>
-
-        <div class="facebook">
-          <button>
-            <i class="fa-brands fa-facebook"></i>Log in with Facebook
-          </button>
-        </div>
-
-        <div class="account">
-          <div>
-            <p>Forgot password?</p>
-          </div>
-
-          <p>Don't have an account? Sign up</p>
-        </div>
+        <p>Forgot password?</p>
       </div>
+
+      <p>
+        Don't have an account?
+        <a href="https://github.com/MateusSRamos/My-CV">Sign up</a>
+      </p>
+    </div>
+    <div class="apps">
+      <p>Get the app.</p>
+      <img id="gp" src="images/googleplay.png" alt="googleplay" />
+      <img id="microsoft" src="images/Microsoft.png" alt="Microsoft" />
     </div>
   </body>
 </html>
