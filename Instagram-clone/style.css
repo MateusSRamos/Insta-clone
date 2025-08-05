@@ -101,7 +101,9 @@
   text-align: center;
   width: 390px;
   height: 102px;
-  margin: bottom 32.02px;
+  & p {
+    margin-bottom: 21px;
+  }
 }
 
 #gp {
@@ -117,7 +119,7 @@
 footer {
   color: #8e8e8e;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 16px
+  padding: 16px;
 }
 
 footer ul {
@@ -129,4 +131,19 @@ footer ul {
   list-style-type: none;
   padding: 0;
   font-size: 12px;
+}
+
+.copyright {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+.copyright h1 {
+  font-size: 12px;
+  font-weight: lighter;
+}
+.copyright p {
+ margin-left: 20px;
 }
