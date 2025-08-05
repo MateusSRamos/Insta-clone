@@ -95,6 +95,7 @@
   text-align: center;
   width: 390px;
   height: 102px;
+  margin: bottom 32.02px;
 }
 
 #gp {
@@ -106,3 +107,18 @@
   width: 110.765625px;
   height: 40px;
 }
+
+footer {
+  color: #8e8e8e;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: blue;
+}
+
+/* footer ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: auto;
+  list-style-type: none;
+
+} */
