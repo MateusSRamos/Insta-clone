@@ -1,7 +1,10 @@
 * {
   background-color: #fafafa;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
 .main {
   display: flex;
   justify-content: center;
@@ -11,6 +14,7 @@
   flex-wrap: nowrap;
   align-items: center;
 }
+
 .img {
   margin-bottom: 15px;
 }
@@ -19,6 +23,7 @@
   justify-items: center;
   display: grid;
 }
+
 .login input {
   width: 270px;
   border: none;
@@ -77,6 +82,7 @@
   text-align: center;
   margin-bottom: 68.5px;
 }
+
 .account div {
   color: #00376b;
   margin-bottom: 79.5px;
@@ -111,14 +117,16 @@
 footer {
   color: #8e8e8e;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: blue;
+  padding: 16px
 }
 
-/* footer ul {
+footer ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 9px 15px;
   flex-wrap: wrap;
   margin: auto;
   list-style-type: none;
-
-} */
+  padding: 0;
+  font-size: 12px;
+}
