@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" media="screen" href="style.css" />
     <title>Instagram</title>
     <script
       src="https://kit.fontawesome.com/d321471429.js"
@@ -16,41 +16,47 @@
   </head>
 
   <body>
-    <main class="main">
-      <img src="images/Logo 1.png" alt="Instagram" />
+    <main class="conteiner">
+      <div class="conteiner-login">
+        <img src="images/Logo 1.png" alt="Instagram" />
 
-      <div class="login">
-        <input type="text" placeholder="Phone number, username, or email" />
-        <input type="password" placeholder="Password" />
-        <button>Log in</button>
-      </div>
-
-      <div class="divisor">
-        <hr />
-        <span>OR</span>
-        <hr />
-      </div>
-
-      <div class="facebook">
-        <button>
-          <i class="fa-brands fa-facebook"></i>Log in with Facebook
-        </button>
-      </div>
-
-      <div class="account">
-        <div>
-          <p>Forgot password?</p>
+        <div class="login">
+          <input type="text" placeholder="Phone number, username, or email" />
+          <input type="password" placeholder="Password" />
+          <button>Log in</button>
         </div>
 
-        <p>
-          Don't have an account?
-          <a href="https://github.com/MateusSRamos/My-CV">Sign up</a>
-        </p>
+        <div class="divisor">
+          <hr />
+          <span>OR</span>
+          <hr />
+        </div>
+
+        <div class="facebook">
+          <button>
+            <i class="fa-brands fa-facebook"></i>Log in with Facebook
+          </button>
+        </div>
+
+        <div class="account">
+          <div>
+            <p>Forgot password?</p>
+          </div>
+
+          <p>
+            Don't have an account?
+            <a href="https://github.com/MateusSRamos/My-CV">Sign up</a>
+          </p>
+        </div>
+        <div class="apps">
+          <p>Get the app.</p>
+          <img id="gp" src="images/googleplay.png" alt="googleplay" />
+          <img id="microsoft" src="images/Microsoft.png" alt="Microsoft" />
+        </div>
       </div>
-      <div class="apps">
-        <p>Get the app.</p>
-        <img id="gp" src="images/googleplay.png" alt="googleplay" />
-        <img id="microsoft" src="images/Microsoft.png" alt="Microsoft" />
+
+      <div class="smartphone">
+        <img src="images/smartphone.png" alt="celphone" />
       </div>
     </main>
 
@@ -73,7 +79,6 @@
       <div class="copyright">
         <h1>English</h1>
         <i class="fa-solid fa-chevron-down"></i>
-
         <p>© 2022 Instagram from Meta</p>
       </div>
     </footer>
